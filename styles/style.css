@@ -1,0 +1,108 @@
+/* #FF7977 */
+:root {
+  --main: #FF7977;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #F2F2F7;
+}
+
+nav .logo {
+  display: flex;
+  justify-content: center;
+}
+
+nav .links a {
+  color: #8c9296;
+  padding: 0px 5px;
+  transition: .3s;
+}
+
+nav .links a:hover {
+  color: var(--main);
+}
+
+.container {
+  padding: 5px 20px;
+}
+
+.container table {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.container table thead tr th {
+  text-align: start;
+  border-bottom: 1px solid #F2F2F7;
+}
+
+.container table tbody tr td {
+  padding: 10px 0px;
+  border-bottom: 1px solid #F2F2F7;
+}
+
+.container table tbody tr td .red {
+  display: inline;
+  color: #eb0a25;
+  border: 1px solid #eb0a25;
+  background-color: #fff0ef;
+  padding: 3px 10px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.container table tbody tr td .green {
+  display: inline;
+  color: #3fb46d;
+  border: 1px solid #3fb46d;
+  background-color: #ebfff4;
+  padding: 3px 10px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.container table tbody tr td.name {
+  display: flex;
+}
+
+.container table tbody tr td.name div {
+  margin-left: 20px;
+}
+
+.container table tbody tr td.name span {
+  font-weight: 500;
+}
+
+.container table tbody tr td.name p {
+  font-size: 14px;
+  color: #8c9296;
+}
+
+.container table tbody tr td .curIcn {
+  width: 30px;
+}
+
+.Chart {
+  width: 60px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

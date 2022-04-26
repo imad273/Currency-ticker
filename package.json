@@ -1,0 +1,26 @@
+{
+  "name": "currency-ticker",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "webpack",
+    "start-server": "nodemon server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.15",
+    "snowpack": "^3.8.8",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
