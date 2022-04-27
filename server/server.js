@@ -1,11 +1,8 @@
 const app = require('express')();
 const fetch = require('node-fetch');
-const cors = require('cors');
 const server = require('http').createServer(app);
 const socket = require('socket.io')(server, {
-  cors: {
-    origin: '*'
-  }
+  cors: { origin: '*'}
 });
 
 socket.on('connect', socket => {
