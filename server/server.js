@@ -2,7 +2,9 @@ const app = require('express')();
 const fetch = require('node-fetch');
 const server = require('http').createServer(app);
 const socket = require('socket.io')(server, {
-  cors: { origin: '*'}
+  cors: {
+    "origin": '*'
+  }
 });
 
 socket.on('connect', socket => {
@@ -25,7 +27,7 @@ socket.on('connect', socket => {
   }
 
   getData();
-  setInterval(getData , 6000);
+  setInterval(getData, 6000);
 
 })
 
