@@ -27,7 +27,7 @@ socket.on('connect', socket => {
   }
 
   getData();
-  setInterval(getData, 6000);
+  //setInterval(getData, 6000);
 
 })
 

@@ -39,6 +39,7 @@ nav .links a:hover {
 
 .container {
   padding: 5px 20px;
+  overflow-x: scroll;
 }
 
 .container table {
