@@ -1,15 +1,15 @@
 import { io } from "socket.io-client";
 
 // use Localhost endpoint for testing
-const socket = io("ws://localhost:3001");
-//const socket = io("https://cur-ticker2.herokuapp.com/");
+//const socket = io("ws://localhost:3001");
+const socket = io("https://cur-ticker2.herokuapp.com/");
 
 socket.on("connect", () => {
   console.log("Connected");
 })
 
 socket.on('data', data => {
-  console.log(data);
+  //console.log(data);
 
   const par = document.getElementById("show");
 
